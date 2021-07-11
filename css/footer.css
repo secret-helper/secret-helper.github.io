@@ -1,0 +1,112 @@
+footer {
+  /* background-color:yellow; */
+  /* внеш отступ */
+  margin-top: 30px;
+}
+/*---------------------------*/
+.footerflex {
+  /* border: 1px solid red; */
+  /* background-color:gray; */
+  /* в строку */
+  display: flex;
+  /* высота div */
+  /* height: 90px; */
+  height: 60px;
+  /* ширина */ /* width: 0px; */
+  /* внеш отступ */
+  margin-top: 15px;
+  /* по ширине */
+  justify-content: center;
+  /* flex-direction: column; */
+}
+/*---------------------------*/
+.footerbox {
+  /* border: 1px solid #f5f5f5; */
+  /* background-color: #FAFBFC; */
+  /* в строку */
+  display: flex;
+  /* по ширине */
+  /* justify-content: center; */
+  /* одинаково мехду - торцы прижаты */
+  /* justify-content: space-between; */
+  /* одинаково покраям */
+  justify-content: space-around;
+  /* width: 730px; */
+  width: 920px;
+}
+/*---------------------------*/
+.footerbox1 {
+  /* background-color:green; */
+  /* в строку */
+  display: flex;
+  /* по высоте вверх */
+  /* align-items: flex-start; */
+  /* по ширине */
+  justify-content: center;
+  /* по высоте центр */
+  align-items: center;
+  /* высота div */
+  /* height: 30px; */
+}
+.footerbox1 a {
+  text-decoration: none;
+}
+.footerbox2 {
+  /* background-color:yellow; */
+  /* background-color: rgb(3, 0, 33); */
+  /* в строку */
+  display: flex;
+  /* по ширине */
+  justify-content: center;
+  /* по высоте центр */
+  align-items: center;
+  /* width: 1180px; */
+  
+}
+.footerbox3 {
+  /* background-color:red; */
+  /* в строку */
+  display: flex;
+  /* по высоте вниз */
+  /* align-items: flex-end; */
+  /* по ширине */
+  justify-content: center;
+  /* по высоте центр */
+  align-items: center;
+}
+/*---------------------------*/
+@media (max-width: 5000px) {
+  .footerbox {
+    width: 880px;
+  }
+}
+@media (max-width: 1200px) {
+  .footerbox {
+    width: 820px;
+  }
+}
+@media (max-width: 992px) {
+  .footerbox {
+    width: 720px;
+  }
+}
+@media (max-width: 767px) {
+  /* .footerflex { */
+    /* высота div */
+    /* height: 90px; */
+    /* height: 120px; */
+  /* } */
+  /* .footerbox1 {
+    height: 40px;
+  } */
+  .footerbox {
+    width: 420px;
+    flex-direction: column;
+  }
+  /* .footerbox {
+    flex-direction: column;
+  } */
+  /* .footerbox1 {
+    flex-direction: column;
+  } */
+}

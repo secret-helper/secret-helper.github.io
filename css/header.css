@@ -1,0 +1,140 @@
+body {
+  background-color: white;
+}
+header {
+  /* background-color:yellow; */
+  /* внеш отступ */
+  margin: 0px;
+}
+a {
+  color: blue;
+}
+@font-face {
+  font-family: "RussoOne-Regular";
+  src: url("../fonts/RussoOne-Regular.ttf") format("truetype"),
+       url("../fonts/RussoOne-Regular.woff") format("woff"),
+       url("../fonts/RussoOne-Regular.woff2") format("woff2"),
+       url("../fonts/RussoOne-Regular.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: "RussoOne-Regular-menu";
+  src: url("../fonts/RussoOne-Regular.ttf") format("truetype"),
+       url("../fonts/RussoOne-Regular.woff") format("woff"),
+       url("../fonts/RussoOne-Regular.woff2") format("woff2"),
+       url("../fonts/RussoOne-Regular.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("../fonts/Roboto-Black.ttf") format("truetype"),
+       url("../fonts/Roboto-Black.woff") format("woff"),
+       url("../fonts/Roboto-Black.woff2") format("woff2"),
+       url("../fonts/Roboto-Black.otf") format("opentype");
+  /* font-weight: 600; */
+  font-weight: 600;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.ttf") format("truetype"),
+       url("../fonts/Roboto-Bold.woff") format("woff"),
+       url("../fonts/Roboto-Bold.woff2") format("woff2"),
+       url("../fonts/Roboto-Bold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+} */
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../fonts/Roboto-Medium.ttf") format("truetype"),
+       url("../fonts/Roboto-Medium.woff") format("woff"),
+       url("../fonts/Roboto-Medium.woff2") format("woff2"),
+       url("../fonts/Roboto-Medium.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.ttf") format("truetype"),
+       url("../fonts/Roboto-Regular.woff") format("woff"),
+       url("../fonts/Roboto-Regular.woff2") format("woff2"),
+       url("../fonts/Roboto-Regular.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+} */
+/* +++ <header> Логотип ++++++++++++++++++++++++++++++++++++ */
+.headerflex {
+  /* в строку */
+  display: flex;
+  /* высота div */
+  height: 100px;
+  /* ширина */ /* width: 0px; */
+  /* внеш отступ */
+  /* margin-top: 30px; */
+  /* по ширине */
+  justify-content: center;
+}
+.headerbox1 {
+  /* background-color:green; */
+  /* внеш отступ */
+  margin-right: 20px;
+  /* в строку */
+  display: flex;
+  /* по высоте центр */
+  align-items: center;
+}
+.headerbox1 img {
+  width: 48px;
+}
+.headerbox2 {
+  /* background-color:blue; */
+  /* в строку */
+  display: flex;
+  /* по ширине */
+  /* justify-content: center; */
+  /* по высоте центр */
+  align-items: center;
+}
+.headerbox2 h6 {
+  font-family: "RussoOne-Regular", Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: rgb(3, 0, 33);
+}
+/* --- <header> Логотип ------------------------------------ */
+/* +++ .menuflex Меню   ++++++++++++++++++++++++++++++++++++ */
+/* .menubox a {
+  font-family: "RussoOne-Regular-menu";
+} */
+/* --- .menuflex Меню   ------------------------------------ */
+/* +++ Статья           ++++++++++++++++++++++++++++++++++++ */
+.header-h1-big { /* <h1 class="header-h1"> economy заголовок */
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-family: "Roboto-Black", Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgb(38, 38, 38);
+  /* color: blue; */
+  display: flex;
+  /* по ширине */
+  justify-content: center;
+  text-align: center;
+}
+.text-simple { 
+  /* Arial, Helvetica, sans-serif */
+  font-family: "Roboto-Medium", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(38, 38, 38);
+
+  word-spacing: 5px;
+  line-height: 20px;
+}
+/* --- Статья           ------------------------------------ */
+/* +++ <footer> Подвал  ++++++++++++++++++++++++++++++++++++ */
+/* .footerflex h6 {
+  font-family: "Roboto-Regular" Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(38, 38, 38); 
+} */
+/* --- <footer> Подвал  ------------------------------------ */

@@ -1,0 +1,122 @@
+.line-header {
+  /* внеш отступ */
+  margin-top: 0px;
+  padding-bottom: 0px;
+  /* border: 1px solid yellow; */
+  /* background-color:yellow; */
+  /* в строку */
+  display: flex;
+  /* по ширине */
+  justify-content: center;
+  /* высота div */
+  /* height: 110px; */
+}
+/* .line-header div {
+  border: 1px solid blue;
+} */
+.economyline-1 {
+  /* внеш отступ */
+  margin-bottom: 30px;
+  /* border: 1px solid yellow; */
+  /* background-color:yellow; */
+  /* в строку */
+  display: flex;
+  /* по ширине */
+  justify-content: center;
+}
+.line-1-box-1 {
+  /* border: 1px solid red; */
+  /* в строку */
+  display: flex;
+  /* по ширине */
+  justify-content: center;
+}
+/* .line-1-box-1 img {
+  border: 1px solid blue;
+  max-width: 450px;
+} */
+.line-1-box-2 {
+  /* border: 1px solid green; */
+  /* в строку */
+  display: flex;
+  /* по ширине */
+  justify-content: center;
+  
+}
+.line-1-box-2 div {
+  /* внеш отступ  */
+  /* margin: 10px; */
+  /* border: 1px solid blue; */
+  max-width: 400px;
+}
+.text-simple {
+  margin-left: 20px;
+}
+.imgline {
+  /* в строку */
+  display: flex;
+  /* по ширине */
+  justify-content: center;
+}
+@media (max-width: 5000px) {
+  .imgline img {
+    max-width: 970px;
+  }
+}
+@media (max-width: 1200px) {
+  .imgline img {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) { 
+  .line-header div {
+    max-width: 595px;
+  }
+  .economyline-1 {
+    flex-direction: column;
+  }
+  .line-1-box-1 {
+    order: 2;
+  }
+  .economyline-1 img {
+    max-width: 100%;
+  }
+  .line-1-box-2 {
+    order: 1;
+  }
+  .line-1-box-2 div {
+    max-width: 595px;
+  }
+  .text-simple {
+    margin-left: 0px;
+  }
+  .imgline img {
+    max-width: 595px;
+  }
+}
+@media (max-width: 767px) {
+  .line-header div {
+    max-width: 450px;
+  }
+  .economyline-1 {
+    flex-direction: column;
+  }
+  .line-1-box-1 {
+    order: 2;
+  }
+  .economyline-1 img {
+    max-width: 450px;
+  }
+  .line-1-box-2 {
+    order: 1;
+  }
+  .line-1-box-2 div {
+    max-width: 450px;
+  }
+  .text-simple {
+    margin-left: 0px;
+  }
+  .imgline img {
+    max-width: 450px;
+  }
+}
