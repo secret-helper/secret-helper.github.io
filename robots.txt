@@ -1,7 +1,6 @@
 Host: https://secret-helper.github.io
 
-User-agent: * 
-Disallow: /.gitignore
+User-agent: *
 Allow: *
 
 Sitemap: https://secret-helper.github.io/sitemap.xml
